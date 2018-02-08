@@ -1,1 +1,1 @@
-# Apusic-db-team
+# Apusic distributed database team
