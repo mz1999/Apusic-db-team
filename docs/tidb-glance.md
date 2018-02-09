@@ -4,19 +4,19 @@
 
 简化的抽象架构分层：
 
-![BB43D81F-B083-49AA-823F-727CA71DB2FE](media/15145092245248/BB43D81F-B083-49AA-823F-727CA71DB2FE.jpg)
+![db-architecture](../images/db-architecture.png)
 
 TiDB官方文档里的架构图：
 
-![tidb-architecture](media/15145092245248/tidb-architecture.png)
+![tidb-architecture](../images/tidb-architecture.png)
 
 
 可以看出，`TiDB`的基础工作和最突出的创新在TiKV，理论上有了这个KV，可以把单机版的SQl引擎实现方式搬过来，就有了一个可扩展的分布式数据库。
 
 那就看看`TiKV`的架构：用`RocksDB`作为单机存储引擎，然后上层用`Raft`实现了一个分布式、强一致性的K/V。有了这个很强大的分布式K/V，在上面实现了`MVCC`层，就是对每个Key加了`version`，然后基于MVCC层最终实现了分布式事务。
 
+![tikv-architecture](../images/tikv-architecture.png)
 
-![20160520054043936](media/15145092245248/20160520054043936.png)
 
 * `RocksDB`内部用的是`LSM-Tree`，写入性能肯定比MySQL的`B+ tree`好。读取性能看实现的优化情况了，不过`RocksDB`是Facebook做的，应该没啥问题。
 
