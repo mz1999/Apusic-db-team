@@ -18,7 +18,7 @@ cd tidb-docker-compose && sudo docker-compose up -d
 
 就这么简单，集群启动成功了。使用`docker ps`查看：
 
-![docker-ps](../images/docker-ps.png)
+![docker-ps](media/docker-ps.png)
 
 
 可以看到，已经启动了三个`tikv`实例，一个`tidb`实例，三个`pd`实例，还有监控和`tidb-vision`。
