@@ -4,7 +4,7 @@
 
 * [TPCC简介](./docs/tpccdoc/tpcc-analyse.md)
 * [TPCC的使用](./docs/tpccdoc/tpcc-run.md)
-* [用 sysbench 对 TiDB 进行性能测试的介绍](./docs/sysbenchOnTiDB/用 sysbench 对 TiDB 进行性能测试的介绍.html)
+* [用 sysbench 对 TiDB 进行性能测试的介绍](./docs/sysbenchOnTiDB/sysbench-TiDB.pdf)
 
 ## 团队分享
 
