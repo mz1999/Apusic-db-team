@@ -7,7 +7,7 @@
 * [用 sysbench 对 TiDB 进行性能测试的介绍](./docs/sysbenchOnTiDB/用 sysbench 对 TiDB 进行性能测试的介绍.html)
 
 ## 团队分享
-
+* [percolator事务协议](./docs/percolator/percolator.md)
 * [分布式系统测试](./docs/分布式系统测试-v1.pptx)
 * [利用docker compose在单机上玩转TiDB](./docs/tidb-docker-compose.md)
 * [TiDB初探](./docs/tidb-glance.md)
