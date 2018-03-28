@@ -1,7 +1,7 @@
 # Apusic Distributed Database Team
 
 ## 性能测试
-* [TPC规范以及文档]（http://www.tpc.org/tpc_documents_current_versions/current_specifications.asp）
+* [TPC规范以及文档](http://www.tpc.org/tpc_documents_current_versions/current_specifications.asp)
 * [TPCC简介](./docs/tpccdoc/tpcc-analyse.md)
 * [TPCC的使用](./docs/tpccdoc/tpcc-run.md)
 * [用 sysbench 对 TiDB 进行性能测试的介绍](./docs/sysbenchOnTiDB/sysbench-TiDB.pdf)
