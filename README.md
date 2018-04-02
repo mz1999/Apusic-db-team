@@ -5,6 +5,9 @@
 * [TPCC简介](./docs/tpccdoc/tpcc-analyse.md)
 * [TPCC的使用](./docs/tpccdoc/tpcc-run.md)
 * [用 sysbench 对 TiDB 进行性能测试的介绍](./docs/sysbenchOnTiDB/sysbench-TiDB.pdf)
+* [TPCH相关](https://github.com/maobuji/tpch-mysql)
+
+
 
 ## 团队分享
 * [TiDB Insert 执行流程图](./docs/insert-overview.md)
