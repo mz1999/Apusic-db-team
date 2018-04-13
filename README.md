@@ -21,3 +21,6 @@
 
 * [TiDB DevCon2018](https://pan.kingdee.com/s/MTAxOTYxNixhZWFj)  密码：q466
 
+## 开发相关
+* [ti-server源代码运行](http://www.cnblogs.com/maobuji/p/8809502.html)
+ 
