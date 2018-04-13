@@ -22,5 +22,13 @@
 * [TiDB DevCon2018](https://pan.kingdee.com/s/MTAxOTYxNixhZWFj)  密码：q466
 
 ## 开发相关
-* [ti-server源代码运行](http://www.cnblogs.com/maobuji/p/8809502.html)
- 
+* [ti-server源代码运行环境配置](http://www.cnblogs.com/maobuji/p/8809502.html)
+
+
+* [(转)TiDB 源码阅读系列文章（一）序](https://www.jianshu.com/p/b447e077773e)
+* [(转)TiDB 源码阅读系列文章（二）初识 TiDB 源码](https://www.jianshu.com/p/f908b332ebfb)
+* [(转)TiDB 源码阅读系列文章（三）SQL 的一生](https://www.jianshu.com/p/637d7238775c)
+* [(转)TiDB 源码阅读系列文章（四）Insert 语句概览](https://www.jianshu.com/p/4d7447a696d0)
+* [(转)TiDB 源码阅读系列文章（五）TiDB SQL Parser 的实现](https://www.jianshu.com/p/07ecaaa1395c)
+* [(转)TiDB 源码阅读系列文章（六）Select 语句概览](https://www.jianshu.com/p/335ae04de07c)
+* [(转)TiDB 源码阅读系列文章（七）基于规则的优化](https://www.jianshu.com/p/99421b08dee6)
