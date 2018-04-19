@@ -16,6 +16,8 @@
 * [分布式系统测试](./docs/分布式系统测试-v1.pptx)
 * [利用docker compose在单机上玩转TiDB](./docs/tidb-docker-compose.md)
 * [TiDB初探](./docs/tidb-glance.md)
+* [MYSQL与TiDB的执行计划](http://www.cnblogs.com/maobuji/p/8876530.html)
+  
 
 ## 技术大会
 
