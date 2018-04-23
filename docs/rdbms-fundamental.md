@@ -262,8 +262,11 @@ WHERE employees.emp_no = salaries.emp_no AND
 * 交换律和结合律
 
 R × S = S × R; (R X S) × T = R × (S × T)
+
 R ⋈ S = S ⋈ R; (R ⋈ S) ⋈ T = R ⋈ (S ⋈ T)
+
 R ∪ S = S ∪ R; (R ∪ S) ∪ T = R ∪ (S ∪ T)
+
 R ∩ S = S ∩ R; (R ∩ S) ∩ T = R ∩ (S ∩ T)
 
 
@@ -271,7 +274,9 @@ R ∩ S = S ∩ R; (R ∩ S) ∩ T = R ∩ (S ∩ T)
 
 
 σ<sub>C1 AND C2</sub> = σ<sub>C1</sub>(σ<sub>C2</sub>( R ))
+
 σ<sub>C1 OR C2</sub> = (σ<sub>C1</sub>( R ) ∪ (σ<sub>C2</sub>( R ) )
+
 σ<sub>C1</sub>(σ<sub>C2</sub>( R )) = σ<sub>C2</sub>(σ<sub>C1</sub>( R ))
 
 
@@ -280,7 +285,9 @@ R ∩ S = S ∩ R; (R ∩ S) ∩ T = R ∩ (S ∩ T)
 在表达式中下推选择是查询优化器最强有力的工具。
 
 σ<sub>C</sub>( R × S ) = σ<sub>C</sub>( R ) × S
+
 σ<sub>C</sub>( R ⋈ S) = σ<sub>C</sub>( R ) ⋈ S 
+
 σ<sub>C</sub>( R ⋈<sub>D</sub> S) = σ<sub>C</sub>( R ) ⋈<sub>D</sub> S 
 
 * 涉及连接和笛卡尔积的定律
@@ -290,6 +297,7 @@ R ⋈<sub>C</sub> S = σ<sub>C</sub>( R × S)
 * 涉及消除重复的定律
 
 δ(R×S) = δ( R ) × δ(S)
+
 δ(R⋈<sub>C</sub>S) = δ( R ) ⋈<sub>C</sub> δ(S)
 
 另外还有涉及投影的定律、涉及分组和聚集的定律。这部分有些理论化，可以参考这篇[《TiDB 源码阅读系列文章（七）基于规则的优化》](https://pingcap.com/blog-cn/tidb-source-code-reading-7/)看看 `TiDB` 具体是怎么做的。
