@@ -10,6 +10,7 @@
 
 
 ## 团队分享
+* [关系数据库查询处理基础知识扫盲](./docs/rdbms-fundamental.md)
 * [TiDB Insert 执行流程图](./docs/insert-overview.md)
 * [TiDB SQL Parser 的实现](./docs/sql-parser.md)
 * [percolator事务协议](./docs/percolator/percolatorTransaction.md)
@@ -34,3 +35,5 @@
 * [(转)TiDB 源码阅读系列文章（五）TiDB SQL Parser 的实现](https://www.jianshu.com/p/07ecaaa1395c)
 * [(转)TiDB 源码阅读系列文章（六）Select 语句概览](https://www.jianshu.com/p/335ae04de07c)
 * [(转)TiDB 源码阅读系列文章（七）基于规则的优化](https://www.jianshu.com/p/99421b08dee6)
+
+
