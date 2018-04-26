@@ -26,8 +26,6 @@
 
 ## 开发相关
 * [ti-server源代码运行环境配置](http://www.cnblogs.com/maobuji/p/8809502.html)
-
-
 * [(转)TiDB 源码阅读系列文章（一）序](https://www.jianshu.com/p/b447e077773e)
 * [(转)TiDB 源码阅读系列文章（二）初识 TiDB 源码](https://www.jianshu.com/p/f908b332ebfb)
 * [(转)TiDB 源码阅读系列文章（三）SQL 的一生](https://www.jianshu.com/p/637d7238775c)
@@ -36,4 +34,6 @@
 * [(转)TiDB 源码阅读系列文章（六）Select 语句概览](https://www.jianshu.com/p/335ae04de07c)
 * [(转)TiDB 源码阅读系列文章（七）基于规则的优化](https://www.jianshu.com/p/99421b08dee6)
 
+## 相关工具
+* [go工程的类图生成工具](https://github.com/maobuji/go-package-plantuml)
 
