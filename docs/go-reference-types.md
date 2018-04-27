@@ -82,6 +82,7 @@ func main() {
 ```
 
 运行结果为：
+
 ![slice-ret2](media/slice-ret2.png)
 
 在函数调用时，传递给函数的`slice`进行了复制，函数的参数是一个新的`slice`，但`slice`内部指针指向的底层数组还是同一个。
