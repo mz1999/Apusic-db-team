@@ -30,10 +30,12 @@
 * [(转)TiDB 源码阅读系列文章（五）TiDB SQL Parser 的实现](https://www.jianshu.com/p/07ecaaa1395c)
 * [(转)TiDB 源码阅读系列文章（六）Select 语句概览](https://www.jianshu.com/p/335ae04de07c)
 * [(转)TiDB 源码阅读系列文章（七）基于规则的优化](https://www.jianshu.com/p/99421b08dee6)
+* [(转)TiDB 源码阅读系列文章（八）基于代价的优化](https://www.jianshu.com/p/84bf0d4dc507)
 
 ## Golang
 * [Go语言的引用类型](./docs/go-reference-types.md)
 * [go工程的类图生成工具](https://github.com/maobuji/go-package-plantuml)
+* [TiDB执行计划分析工具](https://github.com/maobuji/tidb-plan-visulation)
 
 ## 技术大会
 * [TiDB DevCon2018](https://pan.kingdee.com/s/MTAxOTYxNixhZWFj)  密码：q466
