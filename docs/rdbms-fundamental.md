@@ -9,7 +9,7 @@
 
 最早的数据库是基于**文件系统**，虽然它满足了长期存储数据的需求，但没有提供对文件的查询语言，读取访问非常不便利。于是人们在文件系统上引入一层抽象：**数据模型**。数据模型是对现实世界数据特征的抽象，能比较真实地模拟现实世界，容易为人所理解，也便于在计算机上实现。
 
-最早出现的是**层次模型**（[Hierarchical Model](https://en.wikipedia.org/wiki/Network_model)），数据被组织为一棵树，类似于今天**文档数据库**使用的`JSON`的结构。**层次模型**很适合处理**one-to-many**关系，但要表现**many-to-many**关系则非常困难，一般也不支持`join`。使用**层次模型**最著名的数据库是 `IBM` 的**Information Management System (IMS)**，它最初是为了解决阿波罗飞船登月计划的需求，协调分散在全球制造的200万个阿波罗飞船零部件的生产进度。
+最早出现的是**层次模型**（[Hierarchical Model](https://en.wikipedia.org/wiki/Hierarchical_database_model)），数据被组织为一棵树，类似于今天**文档数据库**使用的`JSON`的结构。**层次模型**很适合处理**one-to-many**关系，但要表现**many-to-many**关系则非常困难，一般也不支持`join`。使用**层次模型**最著名的数据库是 `IBM` 的**Information Management System (IMS)**，它最初是为了解决阿波罗飞船登月计划的需求，协调分散在全球制造的200万个阿波罗飞船零部件的生产进度。
 
 随后出现了不同的方案解决**层次模型**的限制，其中最突出的两个模型是**网络模型**（[Network Model](https://en.wikipedia.org/wiki/Network_model)）和**关系数据模型**，最终关系数据模型胜出。
 
