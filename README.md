@@ -40,4 +40,7 @@
 ## 技术大会
 * [TiDB DevCon2018](https://pan.kingdee.com/s/MTAxOTYxNixhZWFj)  密码：q466
 
+## 操作指导书
+* [在线安装TiDB集群](http://www.cnblogs.com/maobuji/p/9040766.html)
+
 
