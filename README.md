@@ -43,4 +43,7 @@
 ## 操作指导书
 * [在线安装TiDB集群](http://www.cnblogs.com/maobuji/p/9040766.html)
 
+## 数据库相关知识
+* [raft原理](http://thesecretlivesofdata.com/raft/)
+
 
