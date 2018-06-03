@@ -1,6 +1,7 @@
 # Apusic Distributed Database Team
 
 ## 团队分享
+* [从RadonDB看新型数据库中间件的特性](./docs/radondb.md)
 * [基于代价优化（CBO）实现代码导读](./docs/cbo-guide.md)
 * [关系数据库查询处理基础知识扫盲](./docs/rdbms-fundamental.md)
 * [TiDB Insert 执行流程图](./docs/insert-overview.md)
