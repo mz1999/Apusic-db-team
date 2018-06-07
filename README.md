@@ -33,6 +33,8 @@
 * [(转)TiDB 源码阅读系列文章（六）Select 语句概览](https://www.jianshu.com/p/335ae04de07c)
 * [(转)TiDB 源码阅读系列文章（七）基于规则的优化](https://www.jianshu.com/p/99421b08dee6)
 * [(转)TiDB 源码阅读系列文章（八）基于代价的优化](https://www.jianshu.com/p/84bf0d4dc507)
+* [(转)TiDB 源码阅读系列文章（九） Hash Join](https://www.jianshu.com/p/73c290bc83c6)
+
 
 ## Golang
 * [Go语言的引用类型](./docs/go-reference-types.md)
