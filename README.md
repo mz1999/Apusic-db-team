@@ -35,6 +35,8 @@
 * [(转)TiDB 源码阅读系列文章（八）基于代价的优化](https://www.jianshu.com/p/84bf0d4dc507)
 * [(转)TiDB 源码阅读系列文章（九） Hash Join](https://www.jianshu.com/p/73c290bc83c6)
 
+* [(转)TiDB架构解析及应用](https://karellincoln.github.io/2018/06/07/TiDB-analysis-application/)
+
 
 ## Golang
 * [Go语言的引用类型](./docs/go-reference-types.md)
