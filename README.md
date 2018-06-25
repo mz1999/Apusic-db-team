@@ -1,6 +1,7 @@
 # Apusic Distributed Database Team
 
 ## 团队分享
+* [Cursor功能实现总结](./docs/cursor-summary.pptx)
 * [关于MySQL XA事务的隔离级别](./docs/mysql-xa.md)
 * [从RadonDB看新型数据库中间件的特性](./docs/radondb.md)
 * [基于代价优化（CBO）实现代码导读](./docs/cbo-guide.md)
