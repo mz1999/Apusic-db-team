@@ -78,6 +78,10 @@ git push -f origin myfeature
 
 至此，一个特性就开发完成了。
 
+* **删除分支**
+
+已经完成merged的 `pull requests` 关联的分支可以在GitHub删除，详细的操作步骤参见GitHub文档 [Deleting and restoring branches in a pull request](https://help.github.com/articles/deleting-and-restoring-branches-in-a-pull-request/)
+
 ## 冲突处理
 
 上面的流程中，在保持分支和最新代码同步时，最有可能产生冲突。
