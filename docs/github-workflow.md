@@ -2,7 +2,7 @@
 
 Zion项目我们采用[Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)，即每个特性在`branch`中开发，`master`始终保持稳定。特性开发完成，需提交`pull request`，接受其他成员的code review，同时可以在`PR`中围绕该特性进行讨论，`PR`记录了开发过程的细节。
 
-由于是内部项目，我们没有使用`fork`机制，代码都维护在Github上的一个仓库：[apusic/Zion](https://github.com/apusic/Zion)。在看具体的流程前，先有一个全局视图：
+由于是内部项目，我们没有使用`fork`机制，代码都维护在Github上的一个仓库：[apusic/zion](https://github.com/apusic/zion)。在看具体的流程前，先有一个全局视图：
 
 ![git](media/git.png)
 
@@ -11,7 +11,7 @@ Zion项目我们采用[Feature Branch Workflow](https://www.atlassian.com/git/tu
 * **从远程clone respository**
 
 ```
-git clone https://github.com/apusic/Zion.git
+git clone https://github.com/apusic/zion.git
 ```
 
 * **创建特性分支**
