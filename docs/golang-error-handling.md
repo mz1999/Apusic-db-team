@@ -177,4 +177,29 @@ func main() {
 }
 ```
 
+* 如果需要抛出包含MySQL错误码的内部错误，可以使用`errors.Wrap`包装，附带上报错位置的调用栈信息：
+
+```
+func pf3() error {
+	return errors.Wrap(mysql.NewErr(mysql.ErrCantCreateTable, "tablename", 500), "")
+}
+```
+
+这样，我们既拿到了完整调用栈，又可以使用`errors.Cause`获取MySQL的错误码等信息：
+
+```
+if err := pf1(); err != nil {
+		fmt.Printf("%+v", err)
+
+		var sqlError *mysql.SQLError
+		if m, ok := errors.Cause(err).(*mysql.SQLError); ok {
+			sqlError = m
+		} else {
+			sqlError = mysql.NewErrf(mysql.ErrUnknown, "%s", err.Error())
+		}
+		
+		fmt.Printf("\nMySQL error code: %d, state: %s", sqlError.Code, sqlError.State)
+	}
+```
+
 
