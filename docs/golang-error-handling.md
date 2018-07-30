@@ -189,17 +189,17 @@ func pf3() error {
 
 ```
 if err := pf1(); err != nil {
-		fmt.Printf("%+v", err)
+    fmt.Printf("%+v", err)
 
-		var sqlError *mysql.SQLError
-		if m, ok := errors.Cause(err).(*mysql.SQLError); ok {
-			sqlError = m
-		} else {
-			sqlError = mysql.NewErrf(mysql.ErrUnknown, "%s", err.Error())
-		}
-		
-		fmt.Printf("\nMySQL error code: %d, state: %s", sqlError.Code, sqlError.State)
-	}
+    var sqlError *mysql.SQLError
+    if m, ok := errors.Cause(err).(*mysql.SQLError); ok {
+    	sqlError = m
+    } else {
+    	sqlError = mysql.NewErrf(mysql.ErrUnknown, "%s", err.Error())
+    }
+    
+    fmt.Printf("\nMySQL error code: %d, state: %s", sqlError.Code, sqlError.State)
+}
 ```
 
 
