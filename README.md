@@ -25,6 +25,7 @@
 
 ## 开发相关
 * [Go语言的引用类型](./docs/go-reference-types.md)
+* [Golang error处理实践](./docs/golang-error-handling.md)
 * [Git Feature Branch Workflow](./docs/github-workflow.md)
 
 
