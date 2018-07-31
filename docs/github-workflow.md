@@ -48,7 +48,7 @@ git fetch
 git rebase origin/master
 ```
 
-关于`rebase`的详细说明，请参考 [The "Git Branching - Rebasing" chapter from the Pro Git book.](https://help.github.com/articles/about-pull-request-merges/)
+关于`rebase`的详细说明，请参考 [The "Git Branching - Rebasing" chapter from the Pro Git book.](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
 后面会单独介绍`rebase`冲突的处理。
 
