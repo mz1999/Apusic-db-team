@@ -216,9 +216,10 @@
 至此，终于梳理完毕。整理TCP队列相关参数的起因是最近在排查一个网络超时问题，原因还没有找到，产生的“副作用”就是这篇文档。再想深入解决这个问题可能需要做TCP协议代码的profile，需要继续学习，希望不久的将来就可以再写文档和大家分享了。
 
 **参考文档**
-[Queueing in the Linux Network Stack](http://www.linuxjournal.com/content/queueing-linux-network-stack)
-[TCP Implementation in Linux: A Brief Tutorial](http://www.ece.virginia.edu/cheetah/documents/papers/TCPlinux.pdf)
-[Impact of Bandwidth Delay Product on TCP Throughput](http://sandilands.info/sgordon/impact-of-bandwidth-delay-product-on-tcp-throughput)
-[Java程序员也应该知道的系统知识系列之网卡](http://hellojava.info/?p=292)
+
+* [Queueing in the Linux Network Stack](http://www.linuxjournal.com/content/queueing-linux-network-stack)
+* [TCP Implementation in Linux: A Brief Tutorial](http://www.ece.virginia.edu/cheetah/documents/papers/TCPlinux.pdf)
+* [Impact of Bandwidth Delay Product on TCP Throughput](http://sandilands.info/sgordon/impact-of-bandwidth-delay-product-on-tcp-throughput)
+* [Java程序员也应该知道的系统知识系列之网卡](http://hellojava.info/?p=292)
 
 
