@@ -8,7 +8,7 @@
 * [关系数据库查询处理基础知识扫盲](./docs/rdbms-fundamental.md)
 * [TiDB Insert 执行流程图](./docs/insert-overview.md)
 * [TiDB SQL Parser 的实现](./docs/sql-parser.md)
-* [percolator事务协议](./docs/percolator/percolatorTransaction.md)
+* [percolator 事务协议](https://github.com/navyjiang/blogs/blob/master/percolatorTransaction.md)
 * [利用docker compose在单机上玩转TiDB](./docs/tidb-docker-compose.md)
 * [TiDB初探](./docs/tidb-glance.md)
 * [MYSQL与TiDB的执行计划](http://www.cnblogs.com/maobuji/p/8876530.html)
