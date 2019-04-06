@@ -2,6 +2,9 @@
 
 ## Kubernetes
 * [Kubernetes 工作原理概述](https://github.com/mz1999/blog/blob/master/docs/kubernetes-overview.md)
+* [Helm的安装和使用](https://github.com/mz1999/blog/blob/master/docs/helm-quickstart.md)
+* [在Ubuntu上安装Minikube](https://github.com/mz1999/blog/blob/master/docs/minikube.md)
+* [使用kubectl管理多集群](https://github.com/mz1999/blog/blob/master/docs/kubectl-multiple-clusters.md)
 
 ## 数据库技术
 * [Cursor功能实现总结](./docs/cursor-summary.pptx)
@@ -23,12 +26,14 @@
 * [Docker跨主机通信路由模式动手实验](https://github.com/mz1999/blog/blob/master/docs/docker-route-networks.md)
 
 ## 开发相关
+* [VS code快捷键](https://github.com/mz1999/blog/blob/master/docs/vscode.md)
 * [Go语言的引用类型](./docs/go-reference-types.md)
 * [Golang error处理实践](./docs/golang-error-handling.md)
 * [Git Feature Branch Workflow](./docs/github-workflow.md)
 * [SQL Parser生成中的一个shift/reduce冲突分析](https://github.com/PatrickHuang888/Articles/blob/master/shiftReduceConflict.md)
 
 ## Linux & networking
+* [在国产飞腾平台上编译安装nginx](https://github.com/mz1999/blog/blob/master/docs/nginx-phytium.md)
 * [为Wireshark编写HSF2协议解析插件](./docs/hsf.md)
 * [Linux TCP队列相关参数的总结](./docs/linux-tcp-queue.md)
 * [使用NIO时慎用SO_LINGER选项](./docs/nio-so-linger.md)
@@ -37,6 +42,7 @@
 * [应用关闭后占用端口时间过长的问题](./docs/time-wait.md)
 * [使用USE Method分析系统性能问题](./docs/use-method.md)
 * [Linux内核参数的配置方法](./docs/linux-kernel-parameter.md)
+* [如何让用户拥有sudo权限](https://github.com/mz1999/blog/blob/master/docs/sudo.md)
 
 ## 分布式系统测试
 * [分布式系统测试-v2.1](./docs/分布式系统测试-v2.1.pptx)
