@@ -1,7 +1,7 @@
 # Apusic Distributed Database Team
 
 ## Kubernetes
-* [Kubernetes集群的身份验证]([./docs/kubernetes-authentication.md](https://github.com/mz1999/blog/blob/master/docs/kubernetes-overview.md))
+* [Kubernetes集群的身份验证]([./docs/kubernetes-authentication.md](https://github.com/mz1999/blog/blob/master/docs/kubernetes-overview.md)
 * [Kubernetes 工作原理概述](https://github.com/mz1999/blog/blob/master/docs/kubernetes-overview.md)
 * [Helm的安装和使用](https://github.com/mz1999/blog/blob/master/docs/helm-quickstart.md)
 * [在Ubuntu上安装Minikube](https://github.com/mz1999/blog/blob/master/docs/minikube.md)
