@@ -6,6 +6,7 @@
 * [Helm的安装和使用](https://github.com/mz1999/blog/blob/master/docs/helm-quickstart.md)
 * [在Ubuntu上安装Minikube](https://github.com/mz1999/blog/blob/master/docs/minikube.md)
 * [使用kubectl管理多集群](https://github.com/mz1999/blog/blob/master/docs/kubectl-multiple-clusters.md)
+* [自己动手将谷歌k8s镜像同步到阿里云](https://github.com/mz1999/blog/blob/master/docs/sync-docker-repo.md)
 
 ## 数据库技术
 * [Cursor功能实现总结](./docs/cursor-summary.pptx)
